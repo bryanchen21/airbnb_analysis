@@ -29,9 +29,6 @@ The assets folder contains the charts from the Jupyter Notebook.
 The main findings of the code can be found at the post available [here](https://medium.com/@bryanchen21/londons-airbnb-market-explained-visually-2b9bb4d746aa).
 
 
-### Project Motivation
-
-
 ### Author and Acknowledgements
 - **Bryan Chen** - bryanchen21@gmail.com
 - Credits to Inside Airbnb for the data. 
