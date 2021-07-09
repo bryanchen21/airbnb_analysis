@@ -26,7 +26,7 @@ The assets folder contains the charts from the Jupyter Notebook.
 
 
 ### Results
-The main findings of the code can be found at the post available here.
+The main findings of the code can be found at the post available [here](https://medium.com/@bryanchen21/londons-airbnb-market-explained-visually-2b9bb4d746aa).
 
 
 ### Project Motivation
