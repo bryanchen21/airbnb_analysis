@@ -12,9 +12,9 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 
 
 ### File Descriptions
-The Jupyter notebook contains the codes used for this exploratory analysis. 
-The "data" folder contains the files downloaded from the Inside Airbnb site. 
-The "assets" folder contains the charts from the Jupyter Notebook. 
+- The Jupyter notebook contains the codes used for this exploratory analysis. 
+- The "data" folder contains the files downloaded from the Inside Airbnb site. 
+- The "assets" folder contains the charts from the Jupyter Notebook. 
 
 ### CRISP-DM Process
 1. Business Understanding
