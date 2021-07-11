@@ -17,7 +17,7 @@ There should be no necessary libraries to run the code here beyond the Anaconda 
 - The "assets" folder contains the charts from the Jupyter Notebook. 
 
 ### CRISP-DM Process
-1. Business Understanding
+1. Business Understanding  
 London is one of the biggest markets in Europe for Airbnb. A typical holidaymaker that wants to book a stay in London might have the following questions in mind:
 - How does London listings compare with other European cities?
 - How does London listing prices change from now till end of year?
@@ -25,7 +25,7 @@ London is one of the biggest markets in Europe for Airbnb. A typical holidaymake
 - Which borough has the best reviews?
 - How much can you expect to save by living in Outer London vs Inner London?
 
-2. Data Understanding
+2. Data Understanding  
 We can use data from Inside Airbnb [website](http://insideairbnb.com/get-the-data.html) to answer these questions. They are stored in the "data" folder of this repository. Data that we use is as follows:
 - Listings data from European capital cities - this provides information on location, price, number of reviews, review score, etc.
 - Calendar data - this provides information on how each individual listing in London is priced over the next year. 
@@ -35,10 +35,10 @@ We can use data from Inside Airbnb [website](http://insideairbnb.com/get-the-dat
 - For the listings data of the different cities, we format the price field by converting it from string to integer so we can use price in our computations. For London listings, we merge it with [data](https://data.london.gov.uk/dataset/london-borough-profiles) from London Data Store (by the Great London Authority), so that we can identify which boroughs belong to inner and outer London. 
 - For the calendar data, we drop rows with missing price as it is only 0.01% of the dataset. 
 
-4. Data Modeling
+4. Data Modeling  
 No modeling is required here. We are using descriptive statistics and data visualisation to answer the business questions in point 1. 
 
-5. Results
+5. Results  
 Results can be summarised as follows:
 - London has the most listings compared to Paris, Amsterdam, Berlin and Madrid. In fact, it has more listings than Amsterdam, Berlin and Madrid combined, although London prices are in the middle of the range. 
 - London prices for hotel rooms fluctuate between weekends and weekdays, with a 11% premium charged on weekdays. 
