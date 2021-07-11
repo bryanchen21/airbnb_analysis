@@ -10,10 +10,6 @@
 
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
 
-### Project Motivation
-
-I analysed Airbnb listings data obtained from the Inside Airbnb site to understand:
-
 
 ### File Descriptions
 The Jupyter notebook contains the codes used for this exploratory analysis. 
@@ -30,7 +26,7 @@ d) Which borough has the best reviews?
 e) How much can you expect to save by living in Outer London vs Inner London?
 
 2. Data Understanding
-We can use data from Inside Airbnb [website](http://insideairbnb.com/get-the-data.html) to answer these questions. They are stored in the "data" folder of this repository. Data that we use is as followings:
+We can use data from Inside Airbnb [website](http://insideairbnb.com/get-the-data.html) to answer these questions. They are stored in the "data" folder of this repository. Data that we use is as follows:
 a) Listings data from European capital cities - this provides information on location, price, number of reviews, review score, etc.
 b) Calendar data - this provides information on how each individual listing in London is priced over the next year. 
 c) Reviews data - this provides all review comments that a listing has ever received.
@@ -44,7 +40,7 @@ No modeling is required here. We are using descriptive statistics and data visua
 
 5. Results
 Results can be summarised as follows:
-a) London has the most listings compared to Paris, Amsterdam, Berlin and Madrid. In fact, it has more than Amsterdam, Berlin and Madrid combined, although London prices are in middle of the range. 
+a) London has the most listings compared to Paris, Amsterdam, Berlin and Madrid. In fact, it has more listings than Amsterdam, Berlin and Madrid combined, although London prices are in the middle of the range. 
 b) London prices for hotel rooms fluctuate between weekends and weekdays, with a 11% premium charged on weekdays. 
 c) In London, top 10 boroughs with the most listings are from Inner London, and this constitutes over two thirds of total listings. 
 d) Out of the top 10 boroughs with the best reviews, 8 are from Outer London. Westminster and Kensington & Chelsea, which charge the top 2 highest prices per night and are top 4 in most listings, are in the top 4 lowest scores.
